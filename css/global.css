@@ -1,0 +1,7 @@
+    body, button {
+    font-family: Monospace, Arial, Helvetica, sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+  }

@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    background-image: url('/img/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div02{
+    background-color: rgba(240, 248, 255, 0.74);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid gold;
+    margin: 10px 5%;
+    margin-top: 4%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+#div02 *{
+    transition: transform .2s;
+}
+
+#div02 *:hover{
+    transform: scale(1.05);
+}
+
+#div02 img{
+    width: 125px;
+    border-radius: 25px;
+    border: 1px solid gray
+}
+
+#div02 p a{
+    text-decoration: none;
+}
+
+#div02 p{
+    color: black;
+}

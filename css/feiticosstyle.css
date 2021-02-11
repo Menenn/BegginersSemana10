@@ -1,0 +1,177 @@
+body{
+    background-image: url('/img/background3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title{
+    margin: 3%;
+    text-align: center;
+}
+
+#title h2{
+    transition: transform .2s;
+}
+
+#title h2:hover{
+    transform: scale(1.05);
+}
+
+#bordadetudo{
+    border: 2px gold solid;
+    background-color: rgba(250, 250, 250, 0.575);
+    padding: 10px;
+    margin: 3%;
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+#itens{
+    border-radius: 25px;
+    min-width: 90%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+#spellsimg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 5px;
+    overflow: auto;
+    padding: 8px;
+}
+
+#descspell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100vh;
+    min-height: 25vh;
+}
+
+#descspell *{
+    margin: 0px;
+    padding: 10px;
+    max-width: 75%;
+    min-width: 75%;
+    transition: transform .2s;
+}
+
+#descspell *:hover{
+    transform: scale(1.05);
+}
+
+#spellsimg img{
+    margin: 0px 5px;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+#spellsimg img:hover{
+    transform: scale(1.2);
+}
+
+#iconsimg{
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+#iconsimg img{
+    width: 64px;
+    height: 64px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+#iconsimg img:hover{
+    transform: scale(1.2);
+}
+
+#mapasr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mapasr img{
+    min-height: 32vh;
+    max-height: 64vh;
+    min-width: 32vw;
+    max-width: 64vw;
+    border-radius: 25px;
+    transition: transform .2s;
+}
+
+#mapasr img:hover{
+    transform: scale(1.2);
+}
+
+#skills img{
+    margin: 5px 30px;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+#skills img:hover{
+    transform: scale(1.2);
+}
+
+#nasusdiv{
+    margin: 25px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nasusinfo p{
+    font-size: 19px;
+}
+
+#nasusdiv #nasusinfo{
+    margin: 0px 100px;
+}
+
+#skillinfo{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 60vh;
+    min-height: 60vh;
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: start;
+}
+
+#skillinfo p{
+    font-size: 19px;
+}
+
+#skillinfo video{
+    margin: 40px;
+    border: 2px gold solid;
+    border-radius: 25px;
+    max-width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    min-width: 50%;
+}
